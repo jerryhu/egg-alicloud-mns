@@ -1,0 +1,4 @@
+node_modules
+test/fixtures/apps/alicloud-mns-test/logs
+test/fixtures/apps/alicloud-mns-test/run
+package-lock.json
