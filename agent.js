@@ -2,6 +2,6 @@
 
 const mns = require('./lib/mns');
 
-module.exports = app => {
-  if (app.config.alicloudMns.agent) mns(app);
+module.exports = agent => {
+  if (agent.config.alicloudMns.agent) mns(agent);
 };
