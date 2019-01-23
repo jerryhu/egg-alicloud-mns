@@ -8,7 +8,7 @@
 Description here.
 -->
 
-Read this in other languages: [简体中文](https://github.com/jerryhu/egg-alicloud-mns/blob/master/README.zh-cn.md)
+Read this in other languages: [简体中文](https://github.com/jerryhu/egg-alicloud-mns/blob/master/README.md)
 
 ## Install
 
