@@ -1,6 +1,6 @@
 {
   "name": "egg-alicloud-mns",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Alicloud MNS plugin for egg",
   "eggPlugin": {
     "name": "alicloudMns"
@@ -8,7 +8,8 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "mns"
   ],
   "dependencies": {
     "@alicloud/mns": "^1.0.0"
@@ -47,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-alicloud-mns.git"
+    "url": "git+https://github.com/jerryhu/egg-alicloud-mns.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/jerryhu/egg-alicloud-mns/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-alicloud-mns#readme",
+  "homepage": "https://github.com/jerryhu/egg-alicloud-mns#readme",
   "author": "Jerry Hu",
   "license": "MIT"
 }
