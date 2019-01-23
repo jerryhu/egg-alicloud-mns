@@ -1,6 +1,7 @@
 'use strict';
 
 const mock = require('egg-mock');
+const assert = require('power-assert');
 
 describe('test/alicloud-mns.test.js', () => {
   let app;
@@ -19,5 +20,9 @@ describe('test/alicloud-mns.test.js', () => {
       .get('/')
       .expect('hi, alicloudMns')
       .expect(200);
+  });
+
+  it('should get object app.alicloudMns', () => {
+    assert(app.alicloudMns);
   });
 });
