@@ -36,13 +36,15 @@ exports.alicloudMns = {
 ```js
 // {app_root}/config/config.default.js
 exports.alicloudMns = {
-  accountId: '',
-  accessKeyId: '',
-  secretAccessKey: '',
-  region: '', // e.g. 'cn-hangzhou',
-  secure: true, // use https or http
-  internal: false, // use internal endpoint
-  vpc: false, // use vpc endpoint
+  client: {
+    accountId: '',
+    accessKeyId: '',
+    secretAccessKey: '',
+    region: '', // e.g. 'cn-hangzhou',
+    secure: true, // use https or http
+    internal: false, // use internal endpoint
+    vpc: false, // use vpc endpoint
+  },
 };
 ```
 

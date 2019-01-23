@@ -25,4 +25,8 @@ describe('test/alicloud-mns.test.js', () => {
   it('should get object app.alicloudMns', () => {
     assert(app.alicloudMns);
   });
+
+  it('should have function app.alicloudMns.receiveMessage', () => {
+    assert(app.alicloudMns.receiveMessage);
+  });
 });

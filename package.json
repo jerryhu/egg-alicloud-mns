@@ -1,6 +1,6 @@
 {
   "name": "egg-alicloud-mns",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Alicloud MNS plugin for egg",
   "eggPlugin": {
     "name": "alicloudMns"
