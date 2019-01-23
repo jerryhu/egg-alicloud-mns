@@ -4,33 +4,35 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-alicloud-mns.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-alicloud-mns
-
 <!--
 Description here.
 -->
 
-## 安装
+Read this in other languages: [简体中文](https://github.com/jerryhu/egg-alicloud-mns/blob/master/README.zh-cn.md)
+
+## Install
 
 ```bash
 $ npm i egg-alicloud-mns --save
 ```
 
-阿里云MNS(消息服务)的eggjs插件, 支持eggjs应用访问阿里云的消息服务。
-本插件基于阿里云官方的 [mns-nodejs-sdk](https://github.com/aliyun/mns-nodejs-sdk), SDK使用说明参考[mns-nodejs-sdk](https://github.com/aliyun/mns-nodejs-sdk)文档。
+Alicloud MNS Plugin for egg, support egg application access to Aliyun MNS.
 
-## 开启插件
+This plugin is based on [mns-nodejs-sdk](https://github.com/aliyun/mns-nodejs-sdk),
+please check the document of mns-nodejs-sdk for API details.
+
+## Usage
 
 ```js
-// config/plugin.js
+// {app_root}/config/plugin.js
 exports.alicloudMns = {
   enable: true,
   package: 'egg-alicloud-mns',
 };
 ```
 
-## 详细配置
+## Configuration
 
-请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
 ```js
 // {app_root}/config/config.default.js
 exports.alicloudMns = {
@@ -44,9 +46,12 @@ exports.alicloudMns = {
 };
 ```
 
-## 提问交流
+See [config/config.default.js](config/config.default.js) for more details.
 
-请到 [egg issues](https://github.com/jerryhu/egg-alicloud-mns/issues) 异步交流。
+
+## Questions & Suggestions
+
+Please open an issue [here](https://github.com/jerryhu/egg-alicloud-mns/issues).
 
 ## License
 
