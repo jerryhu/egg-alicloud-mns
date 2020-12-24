@@ -1,6 +1,6 @@
 {
   "name": "egg-alicloud-mns",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Alicloud MNS plugin for egg",
   "eggPlugin": {
     "name": "alicloudMns"
@@ -9,7 +9,8 @@
     "egg",
     "eggPlugin",
     "egg-plugin",
-    "mns"
+    "MNS",
+    "Aliyun"
   ],
   "dependencies": {
     "@alicloud/mns": "^1.0.0"
@@ -41,7 +42,8 @@
     "config",
     "agent.js",
     "lib",
-    "app.js"
+    "app.js",
+    "index.d.ts"
   ],
   "ci": {
     "version": "8, 9"
